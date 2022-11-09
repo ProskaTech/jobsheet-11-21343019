@@ -1,0 +1,21 @@
+package Latihan.Latihan6_Encapsulation;
+
+/*
+ * Created By 21343019 Arafil Azmi
+ */
+
+public class UjiBus2 {
+    public static void main(String[] args) {
+        Bus2 busBesar = new Bus2(40);
+        busBesar.cetak();
+
+        busBesar.addPenumpang(15);
+        busBesar.cetak();
+        
+        busBesar.addPenumpang(5);
+        busBesar.cetak();
+        
+        busBesar.addPenumpang(26);
+        busBesar.cetak();
+    }
+}
